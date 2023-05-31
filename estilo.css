@@ -1,0 +1,242 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    ;
+}
+
+#cabecalho{
+    background: url(imagens/fundo.png) repeat-x;
+    height: 235px;
+    width: 100%;
+    border: solid px rgb(235, 14, 205);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    position: relative;
+    bottom: 55px;
+    left: 150px;
+}
+
+#nav{
+    position: relative;
+    display: flex;
+    top: 30px;
+}
+
+#detalhe{
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+
+#nav ul{
+    list-style: none;
+    color: aliceblue;}
+
+#nav ul li{
+   float: left;
+   padding: em;
+   line-height: 2em;
+    background: #b10333 url(imagens/divisor.png) no-repeat right;
+}
+
+
+#nav ul a{
+    font-size: 15px;
+    padding: 0.5em 1.5em;
+    list-style: none;
+   display: block;}
+#nav ul a:hover{
+        background: #a50909;
+        }
+
+
+/*conteudo*/
+
+#container{
+    border: solid px red;
+    margin: 15px auto;
+    width: 980px;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#container > div{
+    background: url(imagens/fundo-caixa.png);
+}
+
+div > h2{
+    background-color: #294c71;
+    color: whitesmoke;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+
+#entrevistas{
+    width: 210px;
+    height: 480px;
+    border: solid px purple;
+}
+
+#ultima_entrevista{
+    width: 345px;
+    height: 450px;
+    border: solid px purple;
+}
+
+#destaque{
+    width: 345px;
+    height: 450px;
+    border: solid px purple;
+}
+
+#news{
+    width: 210px;
+    height: 200px;
+    border: solid px purple;
+}
+
+#mundo{
+    width: 345px;
+    height: 450px;
+    border: solid px purple;
+}
+
+#noticias_recentes{
+    width: 345px;
+    height: 450px;
+    border: solid px purple;
+}
+
+.fundo_vertical{
+    background:white;
+    width: 165px;
+    margin: 0% auto;
+    list-style: none;
+    padding: 15px;
+}
+
+.fundo_vertical ol{
+    list-style: none;
+    line-height: 3em;
+    width: 300px;
+}
+
+.fundo_caixa{
+    background: white;
+    width: 320px;
+    height: 353px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+div > h3{
+    background-color: #b10333;
+    color: white;
+    display: inline;
+    padding:4px ;
+    margin: 6px;
+}
+
+div > img{
+    width: 100%;
+}
+
+div > a{
+    color: #c70b0b;
+}
+
+p{
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+p > a:hover{
+    color: #c70b0b;
+}
+.mundo_lista{
+    border-bottom: solid 1px #ccc ;
+    padding: 10px;
+    height: 65px;
+    list-style: none;
+    font-size: 0.8em;
+}
+.mundo_lista li a img{
+    float:left;
+    margin-right: 10px;
+}
+
+.mundo_lista li a h4{
+    color: #429dff;
+    font-size: 1.2em;
+}
+
+
+.mundo_lista li a p{
+    color: #000000;
+    font-size: 1.2em;
+}
+
+#pai_news{
+    border: px solid #00e727;
+    width: 190px;
+    height: 120px;
+    margin: auto;
+    background: white;
+}
+
+#pai_news form label{
+    color: #000000;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+#caixa_texto{
+    width: 160px;
+    height: 20px;
+}
+
+#botao{
+    background-color: #b10333;
+    color: whitesmoke;
+    width: 60px;
+    height: 30px;
+    padding: 3px;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    display: block;
+    width: 125px;
+    padding: 5px;
+}
+
+ol li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#entrevistas a:hover{
+    color: #444444;
+    padding-left: 1em;
+    background: url(imagens/marcador.png) no-repeat left  ;
+}
